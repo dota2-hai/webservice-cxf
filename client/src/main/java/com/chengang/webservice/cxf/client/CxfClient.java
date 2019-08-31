@@ -16,7 +16,20 @@ import javax.xml.namespace.QName;
  */
 public class CxfClient {
 
+    private static String userWsdl = "http://localhost:8080/service/user?wsdl";
 
+    private static String namespace = "http://service.server.cxf.webservice.chengang.com/";
+
+
+    @Test
+    public void testGetUserName() throws Exception  {
+        JaxWsDynamicClientFactory dcflient=JaxWsDynamicClientFactory.newInstance();
+
+        Client client=dcflient.createClient(userWsdl);
+
+        Object[] objects=client.invoke("getUserName","411001");
+        System.out.println("*******"+objects[0].toString());
+    }
 
     @Test
     public void demo() throws Exception {

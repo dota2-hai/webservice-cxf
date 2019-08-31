@@ -16,16 +16,20 @@ import java.rmi.RemoteException;
  * @Description //TODO
  * @create 2019-08-30 15:53
  */
-public class wsClient {
+public class AxisClient {
+
+    private static String userWsdl = "http://localhost:8080/service/user?wsdl";
+
+    private static String namespace = "http://service.server.cxf.webservice.chengang.com/";
 
 
     @Test
     public void demo2() throws ServiceException, RemoteException {
         Service service = new Service();
         Call call = (Call)service.createCall();
-        call.setTargetEndpointAddress("http://localhost:8080/service/user?wsdl");
+        call.setTargetEndpointAddress(userWsdl);
         //参数一：服务端namespace（wsdl:import那行,没有就targetNamespace），参数二：方法名
-        call.setOperationName(new QName("http://service.demo1.ws.chengang.com/","getUserName"));
+        call.setOperationName(new QName(namespace,"getUserName"));
         //wsdl文档中的参数名
         call.addParameter("arg0",XMLType.XSD_STRING,ParameterMode.IN);
         call.setReturnType(XMLType.XSD_STRING);
