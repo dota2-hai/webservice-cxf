@@ -1,94 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="350bd775-4629-4112-ae52-2aab0cfd34ac" name="Default Changelist" comment="first commit&#10;包含了webservice的服务端和客户端">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/BSXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/BaseInfoBSXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/CardType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Education.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/EducationBackground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Ethnic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Jobpost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Major.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/MajorName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/MajorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/MsgHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Office.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/OfficeCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/OperationScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/OrgBSXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/OrganizCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/OutpatientClinic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Personnel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/PersonnelDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/ProfessionalCategoryCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/XMLFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/XMLUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/chengang/webservice/cxf/client/AxisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/chengang/webservice/cxf/client/AxisClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/chengang/webservice/cxf/client/CxfClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/chengang/webservice/cxf/client/CxfClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/chengang/webservice/cxf/client/webserviceclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/chengang/webservice/cxf/client/webserviceclient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/InterfaceConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/InterfaceConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/InterfaceConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/InterfaceConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/InterfaceParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/InterfaceParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/ServiceParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/ServiceParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/WSDLUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/target/classes/com/chengang/util/WSDLUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsdltest/wsdltest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wsdltest/wsdltest.iml" afterDir="false" />
+    <list default="true" id="350bd775-4629-4112-ae52-2aab0cfd34ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/XmlToMapUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/server/target/" />
@@ -122,14 +37,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="390">
+              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/XmlToMapUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="313" column="17" selection-start-line="313" selection-start-column="17" selection-end-line="313" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#732#748#0" expanded="true" />
+                <element signature="e#1529#1545#0" expanded="true" />
+                <element signature="e#3793#3809#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/org/dom4j/Element.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -361,38 +309,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/CardType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/XMLFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/com/chengang/webservice/cxf/client/webserviceclient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -411,19 +327,6 @@
               <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/InterfaceConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2798#2816#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -497,6 +400,9 @@
         <option value="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Education.java" />
         <option value="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/EducationBackground.java" />
         <option value="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Demo.java" />
+        <option value="$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/Attribute.java" />
+        <option value="$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/XmlToMapUtil.java" />
+        <option value="$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/Demo.java" />
       </list>
     </option>
   </component>
@@ -545,41 +451,6 @@
             <path>
               <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
               <item name="wsdltest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -593,14 +464,14 @@
               <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
               <item name="wsdltest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
               <item name="wsdltest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -609,6 +480,8 @@
               <item name="wsdltest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chengang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -635,6 +508,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chengang" />
       <recent name="com.chengang.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -654,33 +528,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Demo.demo3">
-    <configuration name="Demo.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Demo.demo2 (1)">
+    <configuration name="Demo.demo1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wsdltest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chengang.util.*" />
+          <option name="PATTERN" value="com.chengang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chengang.util" />
-      <option name="MAIN_CLASS_NAME" value="com.chengang.util.Demo" />
+      <option name="PACKAGE_NAME" value="com.chengang" />
+      <option name="MAIN_CLASS_NAME" value="com.chengang.Demo" />
       <option name="METHOD_NAME" value="demo1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo.demo2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wsdltest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chengang.util.*" />
+          <option name="PATTERN" value="com.chengang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chengang.util" />
-      <option name="MAIN_CLASS_NAME" value="com.chengang.util.Demo" />
+      <option name="PACKAGE_NAME" value="com.chengang" />
+      <option name="MAIN_CLASS_NAME" value="com.chengang.Demo" />
       <option name="METHOD_NAME" value="demo2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -744,11 +618,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Demo.demo2 (1)" />
+        <item itemvalue="JUnit.Demo.demo1 (1)" />
         <item itemvalue="JUnit.Demo.demo3" />
         <item itemvalue="JUnit.Demo.demo5" />
         <item itemvalue="JUnit.Demo.demo4" />
-        <item itemvalue="JUnit.Demo.demo2" />
-        <item itemvalue="JUnit.Demo.demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -767,7 +641,7 @@
       <workItem from="1571706578006" duration="4058000" />
       <workItem from="1571795181915" duration="12926000" />
       <workItem from="1571904404568" duration="4240000" />
-      <workItem from="1571968979166" duration="4158000" />
+      <workItem from="1571968979166" duration="4565000" />
     </task>
     <task id="LOCAL-00001" summary="first commit&#10;包含了webservice的服务端和客户端">
       <created>1567230669925</created>
@@ -790,7 +664,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571646528006</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit&#10;包含了webservice的服务端和客户端">
+      <created>1571988556737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571988556737</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit&#10;包含了webservice的服务端和客户端">
+      <created>1571988585499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571988585499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -826,12 +714,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38110000" />
+    <option name="totallyTimeSpent" value="38517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.20788912" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" sideWeight="0.50323623" side_tool="true" visible="true" weight="0.20788912" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -840,7 +729,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -973,34 +862,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/chengang/webservice/cxf/server/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/chengang/webservice/cxf/server/control/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/net/URI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1087" column="18" selection-start-line="1087" selection-start-column="18" selection-end-line="1087" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/axis/axis/1.4/axis-1.4-sources.jar!/org/apache/axis/client/Call.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="958" column="44" selection-start-line="958" selection-start-column="35" selection-end-line="958" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/net/URL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10150">
@@ -1781,11 +1642,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/util/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="390">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsdltest/src/main/java/com/chengang/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/org/dom4j/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/XmlToMapUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="313" column="17" selection-start-line="313" selection-start-column="17" selection-end-line="313" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#732#748#0" expanded="true" />
+            <element signature="e#1529#1545#0" expanded="true" />
+            <element signature="e#3793#3809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsdltest/src/test/java/com/chengang/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
