@@ -57,10 +57,8 @@ public class InterfaceConstant {
 
         //基本信息接口参数
         List<ServiceParameter> serviceParametersBaseInfo = new ArrayList<ServiceParameter>();
-        serviceParametersBaseInfo.add(new ServiceParameter("service", XMLType.XSD_STRING, "1"));
-        serviceParametersBaseInfo.add(new ServiceParameter("urid", XMLType.XSD_STRING, "1"));
-        serviceParametersBaseInfo.add(new ServiceParameter("pwd", XMLType.XSD_STRING, "1"));
-        serviceParametersBaseInfo.add(new ServiceParameter("parameter", XMLType.XSD_STRING, "1"));
+        serviceParametersBaseInfo.add(new ServiceParameter("input", XMLType.XSD_STRING, "{\"page\":\"4\"}"));
+
         BASEINFO_ALLDATA.setServiceParameters(serviceParametersBaseInfo);
 
     }

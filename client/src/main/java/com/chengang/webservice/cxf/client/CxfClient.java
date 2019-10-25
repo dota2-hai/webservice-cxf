@@ -67,4 +67,21 @@ public class CxfClient {
         //返回值用Object数组接收，如果传入的参数中有输出参数，值会被按照wsdl文档中返回参数的顺序存放到Object[]中
         System.out.println("res = " + res);
     }
+
+    @Test
+    public void demo3() throws Exception {
+        JaxWsDynamicClientFactory dcf = JaxWsDynamicClientFactory.newInstance();
+        String wsUrl = "http://172.16.80.168:9010/yw/search?wsdl";
+        Client client = dcf.createClient(wsUrl);
+        //设置客户端超时时间
+        HTTPConduit conduit = (HTTPConduit)client.getConduit();
+        HTTPClientPolicy policy = new HTTPClientPolicy();
+        policy.setConnectionTimeout(360000);
+        policy.setReceiveTimeout(360000);
+        conduit.setClient(policy);
+        //参数一：服务端namespace（wsdl:import那行），参数二：方法名，参数三：方法入参
+        Object[] res = client.invoke(new QName("http://www.YWXT.com","invoke"),"EmployeeQueryAll","","","");
+        //返回值用Object数组接收，如果传入的参数中有输出参数，值会被按照wsdl文档中返回参数的顺序存放到Object[]中
+        System.out.println("res = " + res);
+    }
 }
